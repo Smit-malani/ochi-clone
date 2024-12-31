@@ -6,7 +6,7 @@ function LandingPage() {
     <div className='w-full h-screen pt-1 '>
         <div className='textstructure mt-36 pl-12'>
             {["we create","Eye-opening","presentations"].map((item,index)=>{
-                return <div className='masker'>
+                return <div key={index} className='masker'>
                   <div className='w-fit flex items-center overflow-hidden'>
                     {index === 1 && (<div className='w-[11vw] rounded-md mr-2 bg-green-600 h-[67px] mt-3'></div>)}
                     <h1 key={index} className='uppercase text-8xl leading-[85px] tracking-tighter font-bold opacity-85'>{item}</h1>
