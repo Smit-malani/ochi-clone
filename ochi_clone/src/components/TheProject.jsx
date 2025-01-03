@@ -18,7 +18,7 @@ function TheProject() {
         })
 
   return (
-    <div className='w-full min-h-screen bg-[#CDEA68] flex items-center justify-center'>
+    <div className='w-full min-h-screen bg-[#CDEA68] flex items-center justify-center pb-28'>
         <div className='w-full relative h-full flex flex-col items-center justify-center'>
             <div className='text-[13vw] text-[#212121] font-bold tracking-tighter leading-[150px] uppercase'>
                 Ready

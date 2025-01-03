@@ -8,6 +8,7 @@ import Featured from './components/Featured'
 import ClientReviews from './components/ClientReviews'
 import Cards from './components/Cards'
 import TheProject from './components/TheProject'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <ClientReviews/>
       <Cards/>
       <TheProject/>
+      <Footer/>
     </div>
   )
 }
