@@ -6,6 +6,8 @@ import About from './components/about'
 import Eyes from './components/Eyes'
 import Featured from './components/Featured'
 import ClientReviews from './components/ClientReviews'
+import Cards from './components/Cards'
+import TheProject from './components/TheProject'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Eyes/>
       <Featured/>
       <ClientReviews/>
+      <Cards/>
+      <TheProject/>
     </div>
   )
 }
